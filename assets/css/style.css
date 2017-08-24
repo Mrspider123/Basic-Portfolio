@@ -17,6 +17,222 @@
 }
 
 body {
+	background-image: url(../images/dark-triangles.png);
+	width: 960px;
+	margin: 7em auto;
+}
 
-	width: 1000px;
+#bodyContainer {
+width: 860px;
+margin: 0 auto;
+}
+
+/*Name styles*/
+#leftHC {
+	float: left;
+	width: 210px;
+	height: 50px;
+	text-align: center;
+	margin-left: 3em;
+	color: white;
+	font-size: 24px;
+	background-color: #4aaaa5;
+}
+
+#MainHeader {
+	margin-top: 10px;
+}
+
+/*Navagation styles*/
+#rightHC {
+float: right;
+height: 50px;
+width: 220px;
+background-color: #4aaaa5;
+margin-right: 5em;
+}
+
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+nav li {
+	float: left;
+	text-align: center;
+	margin-top: 18px;
+	margin-left: 0.2em;
+	width: 4em;
+	font-size: 16px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 4em;
+}
+
+a:hover {
+	background-color: 
+}
+
+/*end of navagation styles*/
+
+
+/*section styles*/
+
+#MainContentContainer {
+	background-image: url(../images/darkness.png);
+	margin: 0em auto;
+	margin-top: 4em;
+}
+
+#AboutMe {
+	padding: 1em;
+	width: 430px;
+	background-color: red;	
+	margin-top: 2.7em;
+	margin-left: 3em;
+	float: left;
+}
+
+#AboutMe h2 {
+
+
+font-size: 32px;
+color: white;
+margin-bottom: 1em;
+border-bottom: white solid 3px;
+
+}
+
+#ConnectWithMe {
+	float: right;
+	width: 200px;
+	background-color: red;
+	margin-top: 2.7em;
+	margin-right: 5em;
+	padding: 0.5em;
+}
+
+#ConnectWithMe h2 {
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 0.5em;
+}
+
+
+
+#imgMargin1 {
+	margin: 0 1em 0 0.7em;
+}
+
+#imgMargin2 {
+	margin: 0 0 0 1em;
+}
+
+#ConnectWithMe a img {
+	border: white solid 3px;
+}
+
+#sectionImg {
+	float: left;
+	margin-right: 1em;
+}
+
+/*end of section styles*/
+
+/*footer styles*/
+
+footer {
+	height: 100px;
+	background-color: white;
+	text-align: center;
+	border-top: solid red 2px;
+}
+
+footer p {
+margin-top: 2.7em;
+}
+
+/* end of footer styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact styles*/
+
+.linebreak {
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+/*end of contact styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imgstyling {
+	width: 213px;
+	height: 300px;S
 }
