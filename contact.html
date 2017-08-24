@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About me</title>
+	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -10,48 +10,76 @@
 
 
    <!-- HeaderContainerAndItems -->
-   <header class="cf">
+   <header id="HeadContainer" class="cf">
    	
-     <div id="leftHC">
+     <div class="cf" id="leftHC">
       <h1 id="MainHeader">Gary Aust</h1>
      </div>
 
 
 
-     <nav id="rightHC">
+     <nav class="cf" id="rightHC">
      	
-        <ul>
-        	<li><a href="index.html">About</a></li>
-        	<li><a href="contact.html">Contact</a></li>
-        	<li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+       <ul>
+        	<li class="lm"><a href="index.html">About</a></li>
+        	<li class="lm"><a href="contact.html">Contact</a></li>
+        	<li class="lm"><a href="portfolio.html">Portfolio</a></li>
+       </ul>
 
      </nav>
 
    </header>
 
+
+ <div id="MainContentContainer" class="cf">
+
    <section id="AboutMe">
-   	<h2></h2>
-   	<img src="">
-   	<p></p>
+   	<h2>Contact</h2>
+   	<label>Name</label>
+   	<span class="linebreak"></span>
+   	<input type="text" name="FirstName" placeholder="Name">
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+   	<label>Email</label>
+   	<span class="linebreak"></span>
+   	<input type="email" name="Email" placeholder="Email">
+
+   	<br />
+    <br />
+
+    <label>Message</label>
+   	<span class="linebreak"></span>
+   	<input type="text-field" name="Text" placeholder=" Type-Message-Here" style="width: 250px; height: 250px;">
+
    </section>
 
 
 <aside id="ConnectWithMe">
-	<h2></h2>
+	<h2>Connect With Me</h2>
     
-    <a href="#"><img src=""></a>
+    <a  href="#"><img id="imgMargin1" src="assets/images/Linkedin.png" width="40" height="40"></a>
 
 
     
-    <a href="#"><img src=""></a>
+    <a  href="#"><img  src="assets/images/github.png" width="40" height="40"></a>
 
     
-    <a href="#"><img src=""></a>
+    <a href="#"><img id="imgMargin2" src="assets/images/stack.png" width="40" height="40"></a>
+
 </aside>
 
+</div><!--main content container-->
 
-<footer></footer>
+
+<footer>
+	
+<p>What the frog 0.0</p>
+
+</footer>
 
 
    	
